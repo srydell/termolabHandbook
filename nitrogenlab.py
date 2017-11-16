@@ -72,7 +72,7 @@ ydata = func(xdata, H, 2, 20)
 
 popt, pcov = curve_fit(func, xdata, ydata)
 
-plt.scatter(error, enthalpy, c="#8eb5c6", edgecolors='b', label="Measured data")
+plt.scatter(error, enthalpy, c="#8eb5c6", edgecolors='b', label="Measured data", alpha=0.4, s=40)
 plt.plot(xdata, func(xdata, *popt), c="#094f6e", linewidth=2, label="Best fit")
 
 plt.yticks([0, 100, H, 300], [0, 100, r"$H =\\ {}$".format(H), 300])
