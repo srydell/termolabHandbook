@@ -92,13 +92,15 @@ popt, pcov = curve_fit(func, xdata, ydata)
 plt.scatter(error, enthalpy, c="#8eb5c6", edgecolors='b', label="Measured data", alpha=0.4, s=40)
 plt.plot(xdata, func(xdata, *popt), c="#094f6e", linewidth=2, label=r"$H \cdot e^{-\frac{2}{P}} + 20$")
 
-plt.yticks([0, 100, H, 300], [0, 100, r"$H =\\ {}$".format(H), 300])
+plt.yticks([0, 100, H, 300, 400], [0, 100, r"$H =\\ {}$".format(H), 300, 400])
 
 plt.xlabel(r"$\frac{1}{P} [\frac{s}{J}$]", fontsize=16)
 plt.ylabel(r"$\frac{P}{\dot{m}} [\frac{kJ}{kg}]$", fontsize=16)
 
 plt.xlim(-0.1, xdata[-1] + .1)
-plt.ylim(-10, max(enthalpy) + 10)
+# plt.ylim(-10, max(enthalpy) + 10)
+# Ignore values over 410 kJ/kg since they are most likely outliers
+plt.ylim(-10, 410)
 plt.legend(loc=1, prop={"size": 18})
 
 # Save the plot
