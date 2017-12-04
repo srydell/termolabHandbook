@@ -47,15 +47,15 @@
 % -------- Section Förberedelsefrågor --------
 \section{Förberedelsefrågor}
 
-\subsection{Formulate the second law of thermodynamics}
+\subsection{Definiera termodynamikens andra lag}
 
 \begin{equation}
     \mathrm{d}S \geq \frac{\dbar Q}{T}
 \end{equation}
 
-Ger en riktning på många typer av reaktioner. Detta förklarar varför vissa saker bara sker i en tidsriktning (kaffet kallnar i en kallare omgivning, universums värmedöd).
+Detta förklarar varför vissa saker bara sker i en tidsriktning (kaffet kallnar i en kallare omgivning, universums värmedöd).
 
-\subsection{What is the relation between volume, pressure and temperature in a system where both vapor and fluid are present}
+\subsection{Vilken relation mellan volym, tryck och temperatur är applicerbar i ett system med både gas och vätska?}
 
 Van der Waals equation
 
@@ -64,31 +64,31 @@ Van der Waals equation
 \end{equation}
 
 
-\subsection{Define entropy and enthalpy}
+\subsection{Definiera entropi och entalpi}
 
 \begin{equation}
     S = k_\text B \ln \Omega
 \end{equation}
+Entropi kan ses som ett mått på varje energikonfigurations sannolikhet, där $\Omega$ är antalet mikrotillstånd för ett givet makrotillstånd.
 
+Visualisera ett system som kan anta ett set av mikrotillstånd, t.ex. luftpartiklar med hastigheter, som tillsammans ger ett makrotillstånd, t.ex. en temperatur. Vissa makrotillstånd kan fås genom fler mikrotillstånd än andra. Om alla mikrotillstånd har samma sannolikhet att förekomma, så kommer systemet gå till det makrotillstånd med flest antal mikrotillstånd.
 
-Om man har ett system som kan anta ett sätt av mikroskopiska konfigurationer (antalet luftpartiklar med någon hastighet) som tillsammans ger en makroskopisk konfiguration (temperatur i en låda). Vissa makroskopiska konfigurationer kan fås genom många olika typer av mikroskopiska konfigurationer (temperaturen 20\degree C kan uppnås på många sätt om man bara tar hänsyn till partiklars hastighet). Om alla de mikroskopiska konfigurationerna har samma sannolikhet, så kommer systemet gå till den makroskopiska konfiguration med flest antal mikroskopiska sätt att nå det. Entropi kan ses som ett mått på varje energikonfigurations sannolikhet där $\Omega$ är antalet mikrotillstånd var ett givet makrotillstånd.
-
-Vid tidspress - prata om hur många sätt ett ägg kan vara i efter det är krossat jämfört med innan.
+Ett annat exempel som är något lättare att visualisera är hur många tillstånd ett ägg kan vara i efter det är krossat jämfört med innan.
 
 \begin{equation}
     H = U + pV
 \end{equation}
+Entalpi kan enkelt beskrivas med hjälp av din egna kropp: Det är din inre energi, t.ex. värme eller de kemiskaprocesser som tillverkar värme i kroppen, plus den energi som det tar att trycka undan den volym luft som du upptar.  
 
-``Min inre energi plus den energi som krävs för att flytta på min omgivning för att göra plats för min volym''.
 
 % -------- Section Introduktion till pumpen --------
 \section{Introduktion till pumpen}
 
 \begin{itemize}
-    \item Värmepump som använder ett kylämne för att pumpa värme från en reservoar till en annan.
-    \item Kompressorn pumpar kylämnet som genomgår en fasövergång
-    \item Sex stycken temperaturmätare med ratt för att ändra vilken som mäts
-    \item Två stycken tryckklockor 
+    \item Värmepumpen använder ett kylämne för att pumpa värme från en reservoar till en annan
+    \item Kompressorn tillför arbete till systemet genom att komprimera och pumpa kylämnet
+    \item Sex stycken temperaturmätare finns i systemet. Dessa manövreras med en ratt för att ändra vilken som syns på displayen
+    \item Två stycken tryckklockor finns på varsin sida av systemet  
     \item En effektmätare mellan vägguttag och kompressorsladd (Denna måste stå på W och \underline{\textbf{inte}} MAX W)
 \end{itemize}
 
@@ -97,7 +97,7 @@ Vid tidspress - prata om hur många sätt ett ägg kan vara i efter det är kros
 
 \begin{itemize}
     \item Fyll upp de båda hinkarna med fyra liter vatten
-    \item Gör en tabell och mät sex temperaturer, två tryck\footnote{Glöm ej att lägga på en bar då tryckklockorna mäter övertryck}, och en effekt var femte minut i 40 minuter \footnote{Innan någon mätning kan göras så måste kompressorn stå på i 10 minuter}
+    \item Gör en tabell och mät sex temperaturer, två tryck\footnote{Glöm ej att lägga på en bar då tryckklockorna mäter övertryck} och en effekt var femte minut i 40 minuter\footnote{Innan någon mätning kan göras så måste kompressorn stå på i 10 minuter}
     \item Med hjälp av mätvärdena, räkna ut `coefficients of performance' ($\epsilon_v, \ \epsilon$ och $\epsilon_C$)
     \item Rita processen i ett Mollierdiagram
 \end{itemize}
@@ -110,19 +110,16 @@ Vid tidspress - prata om hur många sätt ett ägg kan vara i efter det är kros
 \begin{equation}
     \epsilon_v = \frac{Q_1}{W} = \frac{c_{\text{v}} m_{\text{v}} \Delta T}{\langle P \rangle t} \sim 1 \text{ till } 2
 \end{equation}
-
-Där $c_{\text{v}} = 4.2$ kJ/kg$\cdot$K vattens specifika värmekapacitet, $m_{\text{v}} = 4$ kg vattnets massa, $\Delta T$ är vattnets uppvärmda temperatur ($T_{\text{slut}} -T_{\text{start}}$), $\langle P \rangle$ medelvärdet av effekten, och $t$ är den totala tiden.
+Där $c_{\text{v}} = 4.2$ kJ/kg$\cdot$K vattens specifika värmekapacitet, $m_{\text{v}} = 4$ kg vattnets massa, $\Delta T$ är vattnets uppvärmda temperatur ($T_{\text{slut}} -T_{\text{start}}$), $\langle P \rangle$ medelvärdet av effekten, $t$ är den totala tiden.
 
 \begin{equation}
     \epsilon = \frac{Q_2 + W}{W} = \frac{c_{\text{v}} m_{\text{v}} \Delta T + c_{\text{is}} m_{\text{is}} + \langle P \rangle t}{\langle P \rangle t} \sim 1 \text{ till } 2
 \end{equation}
-
-Där $c_{\text{is}} = 333$ kJ/kg är smältentalpin för vatten, och $m_{\text{is}} \approx 1$ kg isens massa.\footnote{Om studenten vispar så halveras ungefär mängden is} Observera att $\epsilon_v = \epsilon$ om inte systemet har några energiförluster.
+Där $c_{\text{is}} = 333$ kJ/kg är smältentalpin för vatten, och $m_{\text{is}} \approx 1$ kg isens massa\footnote{Om studenten vispar så halveras mängden is}. Observera att $\epsilon_v = \epsilon$ om inte systemet har några energiförluster.
 
 \begin{equation}
     \epsilon_C = \frac{T_1}{T_1 - T_2} = \frac{\langle T_1 \rangle}{\langle T_1 \rangle - \langle T_2 \rangle} \sim 7 \text{ till } 9
 \end{equation}
-
 Där $T_i, \ i = 1, 2$ motsvarar temperatursensorn med samma nummer. $\epsilon_C$ beräknas för att göra en övre uppskattning på hur bra systemet kan vara. De två andra $\epsilon$ kan sedan jämföras med denna som
 
 \begin{equation}
@@ -131,25 +128,25 @@ Där $T_i, \ i = 1, 2$ motsvarar temperatursensorn med samma nummer. $\epsilon_C
 
 \subsection{Mollierdiagram}
 
-Undersök först Figur \ref{Fig: mollier}.
 
 \begin{figure}[h]
 \centering
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.9\linewidth]{BoxDiagram.png}
+  \includegraphics[width=1.05\linewidth]{BoxDiagram.png}
   \caption{Boxdiagram över värmepumpen}
+  \label{Fig: Boxdiagram över värmepumpen}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
   \includegraphics[width=.9\linewidth]{ProcessDiagram.png}
   \caption{Processen ritad i ett Mollierdiagram}
+  \label{Fig: Processen ritad i ett Mollierdiagram}
 \end{subfigure}
 \caption{}
-\label{Fig: mollier}
 \end{figure}
 
-Där talen 1-4 motsvarar de hörn som grafen har. Genom att känna till vilka temperatursensorer, samt tryckklockor som motsvarar vilket hörn kan processen enkelt ritas ut.
+Talen 1-4 i Figur \ref{Fig: Boxdiagram över värmepumpen} och \ref{Fig: Processen ritad i ett Mollierdiagram} motsvarar de hörn som grafen har. Genom att känna till vilka temperatursensorer, samt tryckklockor som motsvarar vilket hörn kan processen enkelt ritas ut.
 
 \begin{table}[h]
 \centering
