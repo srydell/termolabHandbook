@@ -16,4 +16,4 @@ Running the python script would result in the following plot.
 
 # Modification
 
-The labs will most likely change over the years. If there is any mistakes made in this handbook, please make a pull request to correct it.
+The labs will most likely change over the years. If there are any mistakes made in this handbook, or anything you would like to add, please make a pull request and correct it.
