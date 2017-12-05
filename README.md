@@ -12,4 +12,4 @@ $ pip3 install -r requirements.txt
 
 Running the python script would result in the following plot.
 
-![alt text](nitrogenEnthalpy.png)
+![alt text](./figures/nitrogenEnthalpy.png)
